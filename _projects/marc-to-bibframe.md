@@ -31,4 +31,4 @@ After successful completion of the Blue Core Prototype in 2024, we are on track 
 
 ## What I learned
 
-The road to production linked open data in libraries is a marathon, not a sprint. It is achievable, and it is happening.
+The road to production linked open data in libraries is a marathon, not a sprint.
