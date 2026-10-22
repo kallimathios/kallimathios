@@ -1,29 +1,30 @@
 # ------------------------------------------------------------------
 # Site settings: edit these first
 # ------------------------------------------------------------------
-title: "Your Name"
-tagline: "Metadata Librarian · Linked Data & RDF"
+title: "Kalliopi M. Mathios"
+tagline: "Authorities & Entity Management Librarian"
 description: >-
-  Portfolio of Your Name, a metadata librarian specializing in RDF-based
-  description, linked data modeling, and metadata infrastructure for research libraries.
+  Portfolio of Your Name, a metadata librarian with deep systems experience specializing in RDF-based vocabularies for library resources, linked data modeling, and metadata infrastructure for research libraries.
 lang: en
-url: "https://USERNAME.github.io"   # or your custom domain, e.g. https://yourname.net
+url: "https://kallimathios.github.io"   # or your custom domain, e.g. https://yourname.net
 baseurl: ""                         # "" for a user site or custom domain; "/repo-name" for a project site
 
 author:
-  name: "Your Name"
-  job_title: "Metadata Librarian"
-  organization: "Your Library"
-  organization_url: "https://library.example.edu"
-  email: "you@example.edu"
+  name: "Kalli Mathios"
+  job_title: "Authorities & Entity Management Librarian"
+  organization: "Stanford University"
+  organization_url: "https://library.stanford.edu/"
+  email: "kmathios@stanford.edu"
   headshot: ""   # e.g. "/assets/img/headshot.jpg"; leave blank to hide
-  orcid: "0000-0000-0000-0000"
+  orcid: "0009-0006-9294-742X"
   wikidata: "Q00000000"
-  github: "USERNAME"
-  linkedin: ""                            # profile slug, e.g. "your-name"
+  github: "kallimathios"
+  linkedin: "www.linkedin.com/in/kalliopi-mathios-16b4471bp"                            # profile slug, e.g. "your-name"
   knows_about:
     - "Resource Description Framework (RDF)"
     - "BIBFRAME"
+    - "MADS/RDF"
+    - "Dublin Core Metadata Terms"
     - "SHACL"
     - "SKOS"
     - "SPARQL"
@@ -43,7 +44,7 @@ focus_areas:
     color: plum
 
 # Show the Stanford global footer links (see README before enabling on a personal site)
-stanford_global_footer: true
+stanford_global_footer: false
 
 # ------------------------------------------------------------------
 # Build settings: usually no need to change
