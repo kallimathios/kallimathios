@@ -4,7 +4,7 @@
 title: "Kalliopi M. Mathios"
 tagline: "Authorities & Entity Management Librarian"
 description: >-
-  Portfolio of Your Name, a metadata librarian with deep systems experience specializing in RDF-based vocabularies for library resources, linked data modeling, and metadata infrastructure for research libraries.
+  Portfolio of Kalliopi Mathios, a metadata librarian with deep systems knowledge specializing in RDF-based vocabularies for library resources, linked data modeling, and metadata infrastructure for research libraries.
 lang: en
 url: "https://kallimathios.github.io"   # or your custom domain, e.g. https://yourname.net
 baseurl: "/kallimathios"                         # "" for a user site or custom domain; "/repo-name" for a project site
@@ -17,7 +17,7 @@ author:
   email: "kmathios@stanford.edu"
   headshot: ""   # e.g. "/assets/img/headshot.jpg"; leave blank to hide
   orcid: "0009-0006-9294-742X"
-  wikidata: "Q00000000"
+  wikidata: ""
   github: "kallimathios"
   linkedin: "www.linkedin.com/in/kalliopi-mathios-16b4471bp"                            # profile slug, e.g. "your-name"
   knows_about:
