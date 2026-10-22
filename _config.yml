@@ -34,10 +34,10 @@ author:
 # Three focus areas shown as cards on the home page
 focus_areas:
   - title: "Linked data modeling"
-    text: "Designing RDF models and application profiles that make library description reusable on the web."
+    text: "Designing RDF models and application profiles that make library description reusable on the open web."
     color: lagunita
   - title: "Metadata transformation"
-    text: "Moving legacy metadata (MARC, MODS, EAD) into BIBFRAME and other RDF vocabularies at scale."
+    text: "Moving legacy library metadata (MARC) into BIBFRAME and other RDF vocabularies at scale."
     color: palo-verde-dark
   - title: "Quality & validation"
     text: "Using SHACL and SPARQL to keep linked data consistent, valid, and trustworthy."
