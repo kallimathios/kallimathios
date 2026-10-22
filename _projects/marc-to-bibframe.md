@@ -1,6 +1,6 @@
 ---
-title: "Blue Core"
-summary: "A community-operated, shared BIBFRAME datastore."
+title: "Blue Core: A community-operated, shared BIBFRAME datastore."
+summary: "Blue Core aims to create a community-operated BIBFRAME datastore where ownership and creation of the metadata are shared among member institutions, eliminating the need for duplicative institutional copies, and bringing library linked open data to production at scale."
 role: "Project Manager and Product Owner"
 start: "2023"
 status: "In progress"
