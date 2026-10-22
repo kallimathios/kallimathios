@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<article class="page project">
+  <p class="breadcrumb"><a href="{{ '/projects/' | relative_url }}">Projects</a> /</p>
+  <h1>{{ page.title }}</h1>
+  <p class="lead">{{ page.summary }}</p>
+
+  <div class="project-layout">
+    <div class="project-body">
+      {{ content }}
+    </div>
+    <aside class="facts" aria-label="Project facts">
+      <h2 class="facts__heading">At a glance</h2>
+      <dl>
+        {% if page.role %}<dt>Role</dt><dd>{{ page.role }}</dd>{% endif %}
+        {% if page.start %}<dt>Dates</dt><dd>{{ page.start }}{% if page.end %}–{{ page.end }}{% endif %}</dd>{% endif %}
+        {% if page.status %}<dt>Status</dt><dd>{{ page.status }}</dd>{% endif %}
+        {% if page.collaborators %}<dt>Collaborators</dt><dd>{{ page.collaborators | join: ", " }}</dd>{% endif %}
+        {% if page.standards %}<dt>Standards</dt><dd>{% include tags.html tags=page.standards %}</dd>{% endif %}
+        {% if page.tools %}<dt>Tools</dt><dd>{{ page.tools | join: ", " }}</dd>{% endif %}
+        {% if page.repo and page.repo != "" %}<dt>Code</dt><dd><a href="{{ page.repo }}">Repository</a></dd>{% endif %}
+        {% if page.data_url and page.data_url != "" %}<dt>Data</dt><dd><a href="{{ page.data_url }}">Dataset / endpoint</a></dd>{% endif %}
+      </dl>
+    </aside>
+  </div>
+</article>

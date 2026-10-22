@@ -1,0 +1,8 @@
+{%- assign a = site.author -%}
+<ul class="identifiers">
+  {% if a.email and a.email != "" %}<li><a href="mailto:{{ a.email }}">Email</a></li>{% endif %}
+  {% if a.orcid and a.orcid != "" %}<li><a href="https://orcid.org/{{ a.orcid }}">ORCID <span class="id-value">{{ a.orcid }}</span></a></li>{% endif %}
+  {% if a.wikidata and a.wikidata != "" %}<li><a href="https://www.wikidata.org/wiki/{{ a.wikidata }}">Wikidata <span class="id-value">{{ a.wikidata }}</span></a></li>{% endif %}
+  {% if a.github and a.github != "" %}<li><a href="https://github.com/{{ a.github }}">GitHub <span class="id-value">@{{ a.github }}</span></a></li>{% endif %}
+  {% if a.linkedin and a.linkedin != "" %}<li><a href="https://www.linkedin.com/in/{{ a.linkedin }}">LinkedIn</a></li>{% endif %}
+</ul>

@@ -1,0 +1,20 @@
+- category: "Standards & community"
+  items:
+    - role: "Member"
+      group: "Example linked data working group"
+      dates: "2025–present"
+- category: "Professional associations"
+  items:
+    - role: "Committee member"
+      group: "Example association committee"
+      dates: "2024–2026"
+- category: "Library & campus"
+  items:
+    - role: "Chair"
+      group: "Example library committee"
+      dates: "2025–present"
+- category: "Peer review"
+  items:
+    - role: "Reviewer"
+      group: "Example journal"
+      dates: "2024–present"

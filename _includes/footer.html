@@ -1,0 +1,24 @@
+<footer class="site-footer" role="contentinfo">
+  <div class="site-footer__personal">
+    <p>&copy; {{ site.time | date: "%Y" }} {{ site.author.name }}. Built with Jekyll on GitHub Pages.
+      Machine-readable profile embedded as <abbr title="JavaScript Object Notation for Linked Data">JSON-LD</abbr>.</p>
+  </div>
+  {% if site.stanford_global_footer %}
+  <div class="global-footer" title="Common Stanford resources">
+    <div class="global-footer__logo">
+      <a class="logo" href="https://www.stanford.edu">Stanford<br>University</a>
+    </div>
+    <div class="global-footer__body">
+      <nav aria-label="global footer menu">
+        <ul class="global-footer__primary">
+          {% for l in site.data.footer.primary %}<li><a href="{{ l.url }}">{{ l.title }}<span class="sr-only"> (link is external)</span></a></li>{% endfor %}
+        </ul>
+        <ul class="global-footer__secondary">
+          {% for l in site.data.footer.secondary %}<li><a href="{{ l.url }}" title="{{ l.label }}">{{ l.title }}<span class="sr-only"> (link is external)</span></a></li>{% endfor %}
+        </ul>
+      </nav>
+      <p class="global-footer__copy"><span>&copy; Stanford University.</span><span>&nbsp; Stanford, California 94305.</span></p>
+    </div>
+  </div>
+  {% endif %}
+</footer>

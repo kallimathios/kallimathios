@@ -1,0 +1,12 @@
+- title: "SPARQL query library"
+  description: "Placeholder. Reusable queries for metadata quality reports."
+  language: SPARQL
+  url: "https://github.com/USERNAME/sparql-queries"
+- title: "Reconciliation scripts"
+  description: "Placeholder. Python/rdflib scripts that reconcile local names to Wikidata and LCNAF."
+  language: Python
+  url: ""
+- title: "OpenRefine recipes"
+  description: "Placeholder. Documented OpenRefine workflows for cleanup before RDF conversion."
+  language: GREL
+  url: ""

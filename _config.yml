@@ -1,0 +1,76 @@
+# ------------------------------------------------------------------
+# Site settings: edit these first
+# ------------------------------------------------------------------
+title: "Your Name"
+tagline: "Metadata Librarian · Linked Data & RDF"
+description: >-
+  Portfolio of Your Name, a metadata librarian specializing in RDF-based
+  description, linked data modeling, and metadata infrastructure for research libraries.
+lang: en
+url: "https://USERNAME.github.io"   # or your custom domain, e.g. https://yourname.net
+baseurl: ""                         # "" for a user site or custom domain; "/repo-name" for a project site
+
+author:
+  name: "Your Name"
+  job_title: "Metadata Librarian"
+  organization: "Your Library"
+  organization_url: "https://library.example.edu"
+  email: "you@example.edu"
+  headshot: ""   # e.g. "/assets/img/headshot.jpg"; leave blank to hide
+  orcid: "0000-0000-0000-0000"
+  wikidata: "Q00000000"
+  github: "USERNAME"
+  linkedin: ""                            # profile slug, e.g. "your-name"
+  knows_about:
+    - "Resource Description Framework (RDF)"
+    - "BIBFRAME"
+    - "SHACL"
+    - "SKOS"
+    - "SPARQL"
+    - "Wikidata"
+    - "Linked data"
+
+# Three focus areas shown as cards on the home page
+focus_areas:
+  - title: "Linked data modeling"
+    text: "Designing RDF models and application profiles that make library description reusable on the web."
+    color: lagunita
+  - title: "Metadata transformation"
+    text: "Moving legacy metadata (MARC, MODS, EAD) into BIBFRAME and other RDF vocabularies at scale."
+    color: palo-verde-dark
+  - title: "Quality & validation"
+    text: "Using SHACL and SPARQL to keep linked data consistent, valid, and trustworthy."
+    color: plum
+
+# Show the Stanford global footer links (see README before enabling on a personal site)
+stanford_global_footer: true
+
+# ------------------------------------------------------------------
+# Build settings: usually no need to change
+# ------------------------------------------------------------------
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+defaults:
+  - scope: { path: "" }
+    values: { layout: page }
+  - scope: { path: "", type: projects }
+    values: { layout: project }
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - SITEMAP.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

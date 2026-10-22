@@ -1,0 +1,9 @@
+# Newest first. Use APA, Chicago, or your preferred style consistently.
+- citation: "Lastname, F. (2026). Title of article. <em>Journal Name</em>, 12(3), 45–67."
+  doi: "10.0000/example"
+  open_access_url: ""
+  type: "Peer-reviewed article"
+- citation: "Lastname, F., &amp; Coauthor, A. (2025). Title of chapter. In <em>Book Title</em>. Publisher."
+  doi: ""
+  open_access_url: ""
+  type: "Book chapter"

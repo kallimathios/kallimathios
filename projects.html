@@ -1,0 +1,9 @@
+---
+title: Projects
+permalink: /projects/
+intro: "Case studies of linked data and metadata work: the problem, my approach, and the results."
+---
+{% assign projects = site.projects | sort: "order" %}
+<div class="project-grid">
+  {% for p in projects %}{% include project-card.html project=p %}{% endfor %}
+</div>

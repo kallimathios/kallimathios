@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<section class="hero" aria-labelledby="hero-heading">
+  <h1 id="hero-heading">{{ page.headline | default: site.title }}</h1>
+  <p class="lead">{{ page.intro }}</p>
+</section>
+
+<section aria-labelledby="focus-heading">
+  <h2 id="focus-heading">Focus areas</h2>
+  <div class="card-row">
+    {% for f in site.focus_areas %}
+    <div class="card bg-{{ f.color }}">
+      <h3>{{ f.title }}</h3>
+      <p class="card-paragraph">{{ f.text }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section aria-labelledby="featured-heading">
+  <h2 id="featured-heading">Featured projects</h2>
+  {% assign featured = site.projects | where: "featured", true | sort: "order" %}
+  <div class="project-grid">
+    {% for p in featured limit: 3 %}{% include project-card.html project=p %}{% endfor %}
+  </div>
+  <p><a class="button" href="{{ '/projects/' | relative_url }}">All projects</a></p>
+</section>
+
+<section aria-labelledby="recent-heading">
+  <h2 id="recent-heading">Recent scholarship</h2>
+  <ul class="citation-list">
+    {% for pub in site.data.publications limit: 3 %}
+    <li>{{ pub.citation }}{% if pub.doi != "" %} <a href="https://doi.org/{{ pub.doi }}">doi:{{ pub.doi }}</a>{% endif %}</li>
+    {% endfor %}
+  </ul>
+</section>
+
+{{ content }}

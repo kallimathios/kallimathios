@@ -1,0 +1,6 @@
+{%- assign list = include.tags | compact -%}
+{%- if list.size > 0 -%}
+<ul class="tags" aria-label="Standards and topics">
+  {%- for t in list -%}<li>{{ t }}</li>{%- endfor -%}
+</ul>
+{%- endif -%}

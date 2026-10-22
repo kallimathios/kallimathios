@@ -1,0 +1,24 @@
+<aside class="sidebar" aria-label="Site navigation and profile">
+  <nav aria-label="Main">
+    <ul class="side-nav">
+      {%- for item in site.data.navigation -%}
+        {%- assign active = false -%}
+        {%- if item.url == "/" -%}
+          {%- if page.url == "/" or page.url == "/index.html" -%}{%- assign active = true -%}{%- endif -%}
+        {%- elsif page.url contains item.url -%}
+          {%- assign active = true -%}
+        {%- endif %}
+      <li><a href="{{ item.url | relative_url }}"{% if active %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
+      {%- endfor %}
+    </ul>
+  </nav>
+
+  <section class="profile" aria-label="Profile">
+    {% if site.author.headshot and site.author.headshot != "" %}
+    <img class="profile__photo" src="{{ site.author.headshot | relative_url }}" alt="Portrait of {{ site.author.name }}" width="160" height="160">
+    {% endif %}
+    <p class="profile__name">{{ site.author.name }}</p>
+    <p class="profile__role">{{ site.author.job_title }}<br>{{ site.author.organization }}</p>
+    {% include identifiers.html %}
+  </section>
+</aside>

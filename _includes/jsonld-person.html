@@ -1,0 +1,20 @@
+{%- assign a = site.author -%}
+{%- assign same = "" | split: "" -%}
+{%- if a.orcid and a.orcid != "" -%}{%- assign u = "https://orcid.org/" | append: a.orcid -%}{%- assign same = same | push: u -%}{%- endif -%}
+{%- if a.wikidata and a.wikidata != "" -%}{%- assign u = "https://www.wikidata.org/entity/" | append: a.wikidata -%}{%- assign same = same | push: u -%}{%- endif -%}
+{%- if a.github and a.github != "" -%}{%- assign u = "https://github.com/" | append: a.github -%}{%- assign same = same | push: u -%}{%- endif -%}
+{%- if a.linkedin and a.linkedin != "" -%}{%- assign u = "https://www.linkedin.com/in/" | append: a.linkedin -%}{%- assign same = same | push: u -%}{%- endif -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": {{ '/#me' | absolute_url | jsonify }},
+  "name": {{ a.name | jsonify }},
+  "jobTitle": {{ a.job_title | jsonify }},
+  "url": {{ '/' | absolute_url | jsonify }},
+  {% if a.email and a.email != "" %}"email": {{ 'mailto:' | append: a.email | jsonify }},{% endif %}
+  "worksFor": { "@type": "Organization", "name": {{ a.organization | jsonify }}, "url": {{ a.organization_url | jsonify }} },
+  "knowsAbout": {{ a.knows_about | jsonify }},
+  "sameAs": {{ same | jsonify }}
+}
+</script>
