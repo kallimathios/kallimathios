@@ -4,12 +4,18 @@ A simple, accessible Jekyll portfolio for a metadata librarian working with RDF 
 It uses Stanford identity colors and the layout from the brand guidelines: a full-width header,
 a 1/4 sidebar, 3/4 main content, and a full-width footer. See `SITEMAP.md` for the page plan.
 
+> **Acknowledgment:** This website was created with the help of Claude Opus 5.5, an AI model
+> developed by Anthropic. Claude assisted with the site map, Jekyll template, styling, and
+> documentation; all content and final decisions are the author's own.
+
 ## Publish on GitHub Pages
 
-1. Create a repository named `USERNAME.github.io` (or any name for a project site).
-2. Upload these files to the repository root.
+1. Create a repository. Name it `USERNAME.github.io` for a site at the root URL, or use any other name for a project site at `https://USERNAME.github.io/repo-name/`.
+2. Upload these files to the repository root, so `_config.yml` is at the top level.
 3. Go to **Settings → Pages → Build and deployment**, choose **Deploy from a branch**, and select `main` / root.
-4. In `_config.yml`, set `url` (and `baseurl: "/repo-name"` if this is a project site).
+4. In `_config.yml`, set `url: "https://USERNAME.github.io"` and match `baseurl` to the repository name:
+   - `USERNAME.github.io` repository: `baseurl: ""`
+   - Any other repository name: `baseurl: "/repo-name"`. If this doesn't match, styles and menu links break.
 
 Optional local preview: `bundle install && bundle exec jekyll serve`, then open http://localhost:4000.
 
