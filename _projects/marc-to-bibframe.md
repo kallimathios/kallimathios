@@ -1,14 +1,13 @@
 ---
-title: "Example: MARC to BIBFRAME conversion pipeline"
-summary: "Placeholder. One or two sentences on the problem and the result, e.g. converted 250,000 records and loaded them into a triplestore."
-role: "Project lead"
-start: "2025"
-end: "2026"
-status: "Completed"
-collaborators: ["Cataloging team", "Library IT"]
+title: "Blue Core"
+summary: "A community-operated, shared BIBFRAME datastore."
+role: "Project Manager and Product Owner"
+start: "2023"
+status: "In progress"
+collaborators: ["SUL DLSS", "Cornell University", "University of California, Davis", "Library of Congress", "University of Pennsylvania"]
 standards: [BIBFRAME, MARC 21, SPARQL]
-tools: ["marc2bibframe2", "XSLT", "Apache Jena"]
-repo: ""
+tools: ["GitHub", "MARC2BIBFRAME2 XSLT", "Blue Core Postgres Datastore", "Sinopia Editor", "Marva"]
+repo: "https://github.com/blue-core-lod"
 data_url: ""
 featured: true
 order: 1
@@ -16,20 +15,20 @@ order: 1
 
 ## The problem
 
-Placeholder. What wasn't working, for whom, and why it mattered.
+After successful experimentation and development during the Mellon funded Linked Data for Production (LD4P) grants, Stanford and Blue Core partners needed to shift focus from tooling and technology strategy to implementing BIBFRAME cataloging.
 
 ## Approach
 
-Placeholder. Key decisions, vocabularies reused, local extensions, workflow.
+Agile development drove the development of the Blue Core ecosystem, along with a thorough assessment of user requirements and existing linked data tooling with an emphasis on open-source technologies.
 
 ## Data model
 
-Placeholder. Include a short Turtle excerpt or a diagram (`/assets/img/...`).
+BIBFRAME data shapes are determined by the Program for Cooperative Cataloging (PCC) Metadata Application Profiles Working Group's Sinopia Resource Templates which align with the Library of Congress Marva Profiles.
 
 ## Outcomes
 
-Placeholder. Numbers and evidence: records converted, error rates, adoption, reuse.
+After successful completion of the Blue Core Prototype in 2024, we are on track to complete the Blue Core MVP by early 2027. The Blue Core ecosystem offers a first for the library industry: two open-source linked data editors are able to create, edit, and display BIBFRAME RDF descriptions within a shared datastore. Blue Core offers single and batch MARC conversion to BIBFRAME, import reports, and duplicate reports. Cataloging policy and BIBFRAME best practices are developed in tandem with partners like the PCC and Share-VDE.
 
 ## What I learned
 
-Placeholder. One short paragraph.
+The road to production linked open data in libraries is a marathon, not a sprint. It is achievable, and it is happening.
