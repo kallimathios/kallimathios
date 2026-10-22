@@ -7,7 +7,7 @@ description: >-
   Portfolio of Your Name, a metadata librarian with deep systems experience specializing in RDF-based vocabularies for library resources, linked data modeling, and metadata infrastructure for research libraries.
 lang: en
 url: "https://kallimathios.github.io"   # or your custom domain, e.g. https://yourname.net
-baseurl: ""                         # "" for a user site or custom domain; "/repo-name" for a project site
+baseurl: "/kallimathios"                         # "" for a user site or custom domain; "/repo-name" for a project site
 
 author:
   name: "Kalli Mathios"
