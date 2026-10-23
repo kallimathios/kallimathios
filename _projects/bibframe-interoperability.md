@@ -4,8 +4,8 @@ summary: >-
   Leading an international effort to define shared BIBFRAME shapes and validate data
   with tabular application profiles converted to SHACL, so BIBFRAME created anywhere
   can be reused consistently across institutions, tools, and data pools.
-role: "Chair, BIBFRAME Interoperability Group (2025–2026); lead metadata tester"
-start: "2024"
+role: "Chair, BIBFRAME Interoperability Group (2024–2027)"
+start: ""
 status: "Ongoing"
 collaborators:
   - "Library of Congress"
@@ -36,7 +36,7 @@ order: 2
 ## The problem
 
 BIBFRAME is now used in production by the Library of Congress and a growing number of
-libraries, vendors, and data pools. But BIBFRAME created in different editors, converted
+libraries, vendors, and data pools; however, BIBFRAME created in different editors, converted
 by different versions of MARC-to-BIBFRAME tooling, or extended with local vocabularies
 doesn't always look the same. Valid RDF isn't the same as interoperable data. Without
 shared expectations for a "base" description, reuse across systems is unpredictable.
@@ -55,9 +55,9 @@ subgroups do most of the technical work:
 
 ## My role
 
-I chair BIG for 2025–2026 and served as lead metadata tester for the group's validation tool.
+I serve as Chair BIG for 2025–2026 (Incoming Chair, 2024-2025; Past Chair, 2026-2027) and served as lead metadata tester for the group's validation tool.
 As chair, I led the 2025 work plan across five areas: communications, governance, validation,
-profiles, and use cases. I also represent the group at international conferences.
+profiles, and use cases. I also represent the group at international conferences, develop documentation, and help maintain our GitHub repository.
 
 ## Approach
 
@@ -86,6 +86,7 @@ profiles, and use cases. I also represent the group at international conferences
 ## What's next
 
 - Turning real-world use cases into published BIBFRAME best practices, aligned with LC documentation
+- Analyzing disparate BIBFRAME metadata application profiles to develop a common data shape for full descriptions
 - Supporting MARC-to-BIBFRAME conversion and "Modern MARC" during the transition
 - Identifying core elements for non-textual formats, and extending shapes to bf:Hub and svde:Opus
 - Integrating DCTAP/SHACL validation into editors and vendor tools, so validation is part of
