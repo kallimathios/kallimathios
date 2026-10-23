@@ -1,16 +1,4 @@
 # Application profiles, ontologies, vocabularies, shapes, mappings
-- title: "Example application profile for digitized maps"
-  type: "Application profile"
-  standards: [BIBFRAME, SHACL]
-  description: "Placeholder. Describe the scope, who uses it, and what problem it solves."
-  url: "https://github.com/USERNAME/example-profile"
-  formats: [Turtle, JSON-LD]
-- title: "Example SKOS vocabulary"
-  type: "Controlled vocabulary"
-  standards: [SKOS]
-  description: "Placeholder. A local vocabulary published as linked data."
-  url: ""
-  formats: [Turtle]
 - title: "BIBFRAME-to-FOLIO Inventory Instance Mapping"
   type: "Crosswalk"
   role: "Author"
