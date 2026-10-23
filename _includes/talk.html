@@ -1,0 +1,15 @@
+{%- assign t = include.talk -%}
+{%- assign has_slides = false -%}{%- if t.slides_url and t.slides_url != "" -%}{%- assign has_slides = true -%}{%- endif -%}
+{%- assign has_video = false -%}{%- if t.video_url and t.video_url != "" -%}{%- assign has_video = true -%}{%- endif -%}
+<li class="talk">
+  <span class="talk__meta">{{ t.type }}{% if t.when and t.when != "" %} · {{ t.when }}{% endif %}</span>
+  <span class="talk__title">{{ t.title }}</span>
+  <span class="talk__event">{{ t.event }}{% if t.copresenters %} · with {{ t.copresenters | join: ", " }}{% endif %}</span>
+  {%- if has_slides or has_video %}
+  <span class="talk__links">
+    {%- if has_slides %}<a href="{{ t.slides_url }}">Slides</a>{% endif -%}
+    {%- if has_slides and has_video %} · {% endif -%}
+    {%- if has_video %}<a href="{{ t.video_url }}">Recording</a>{% endif -%}
+  </span>
+  {%- endif %}
+</li>

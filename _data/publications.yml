@@ -1,9 +1,9 @@
-# Newest first. Use APA, Chicago, or your preferred style consistently.
-- citation: "Lastname, F. (2026). Title of article. <em>Journal Name</em>, 12(3), 45–67."
-  doi: "10.0000/example"
+# Newest first.
+- citation: "Mathios, K., Doğan, E. A., &amp; Nelson, J. (2026). Refining Wikidata’s bibliographic domain to increase reuse in GLAMs. <em>Journal of Open Humanities Data</em>, 12(1), 3."
+  doi: "10.5334/johd.454"
   open_access_url: ""
-  type: "Peer-reviewed article"
-- citation: "Lastname, F., &amp; Coauthor, A. (2025). Title of chapter. In <em>Book Title</em>. Publisher."
+  type: "Journal article"
+- citation: "Mathios, K., &amp; Nelson, J. (2025). BIBFRAME, AI, and open-source technologies: A Blue Core project report. Paper presented at DCMI 2025, the International Conference on Dublin Core and Metadata Applications."
   doi: ""
   open_access_url: ""
-  type: "Book chapter"
+  type: "Conference paper"

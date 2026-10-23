@@ -1,7 +1,18 @@
 ---
-title: Scholarship
-intro: "Publications, presentations, and posters. Open-access versions are linked where available."
+title: Scholarship & Talks
+intro: "Publications, keynotes, conference presentations, and workshops on linked data, BIBFRAME, Wikidata, and metadata interoperability."
 ---
+
+{% assign featured = site.data.presentations | where: "featured", true %}
+{% for t in featured %}
+<section class="feature-talk bg-plum" aria-label="Featured talk">
+  <p class="feature-talk__label">{{ t.type }} · {{ t.event }} · {{ t.when }}</p>
+  <h2 class="feature-talk__title">{{ t.title }}</h2>
+  {% if t.copresenters %}<p class="feature-talk__with">with {{ t.copresenters | join: " and " }}</p>{% endif %}
+  {% if t.description %}<p>{{ t.description }}</p>{% endif %}
+  {% if t.slides_url and t.slides_url != "" %}<p><a class="button button--light" href="{{ t.slides_url }}">View slides</a></p>{% endif %}
+</section>
+{% endfor %}
 
 ## Publications
 
@@ -16,17 +27,16 @@ intro: "Publications, presentations, and posters. Open-access versions are linke
 {% endfor %}
 </ul>
 
-## Presentations & posters
+## Talks & workshops
 
-<ul class="citation-list">
-{% for p in site.data.presentations %}
-  <li>
-    <span class="item__meta">{{ p.type }} · {{ p.date }}</span><br>
-    <strong>{{ p.title }}</strong>. {{ p.event }}.
-    {% if p.slides_url != "" %}<a href="{{ p.slides_url }}">Slides</a>{% endif %}
-    {% if p.video_url != "" %} · <a href="{{ p.video_url }}">Recording</a>{% endif %}
-  </li>
-{% endfor %}
+{% assign talks = site.data.presentations | where_exp: "t", "t.featured != true" %}
+<p class="item__meta">{{ site.data.presentations.size }} presentations, including keynotes, conference talks, workshops, and community updates.</p>
+{% assign by_year = talks | group_by: "year" %}
+{% for y in by_year %}
+<h3 class="year-heading">{{ y.name }}</h3>
+<ul class="talk-list">
+  {% for t in y.items %}{% include talk.html talk=t %}{% endfor %}
 </ul>
+{% endfor %}
 
-For the full list, see my [ORCID record](https://orcid.org/{{ site.author.orcid }}).
+For a complete record, see my [ORCID profile](https://orcid.org/{{ site.author.orcid }}).

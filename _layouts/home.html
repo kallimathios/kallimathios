@@ -19,12 +19,12 @@ layout: default
 </section>
 
 <section aria-labelledby="featured-heading">
-  <h2 id="featured-heading">Featured projects</h2>
+  <h2 id="featured-heading">Featured initiatives</h2>
   {% assign featured = site.projects | where: "featured", true | sort: "order" %}
   <div class="project-grid">
     {% for p in featured limit: 3 %}{% include project-card.html project=p %}{% endfor %}
   </div>
-  <p><a class="button" href="{{ '/projects/' | relative_url }}">All projects</a></p>
+  <p><a class="button" href="{{ '/initiatives/' | relative_url }}">All initiatives</a></p>
 </section>
 
 <section aria-labelledby="recent-heading">

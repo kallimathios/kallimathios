@@ -226,7 +226,7 @@ pre, code { font-family: var(--font-mono); font-size: .9rem; }
   padding: 1.2rem 16px;
 }
 @media (min-width: 768px) { .site-footer__personal { padding: 1.2rem var(--gap); } }
-.site-footer__personal p { margin: 0; }
+.site-footer__personal p { margin: 0; max-width: 60rem; }
 
 .global-footer {
   background: var(--cardinal-red); color: var(--white);
@@ -255,3 +255,25 @@ pre, code { font-family: var(--font-mono); font-size: .9rem; }
   .layout { display: block; }
   a { color: inherit; }
 }
+
+/* ------------------------------------------------------------------
+   Talks
+   ------------------------------------------------------------------ */
+.talk-list { list-style: none; padding: 0; margin: 0 0 1.5rem; }
+.talk { padding: .8rem 0; border-bottom: 1px solid var(--border); display: flex; flex-direction: column; gap: .1rem; }
+.talk__meta { color: var(--muted); font-size: .9rem; font-weight: 600; text-transform: uppercase; letter-spacing: .03em; }
+.talk__title { font-weight: 700; font-size: 1.1rem; }
+.talk__event { color: var(--text); }
+.talk__links { font-size: .95rem; }
+.year-heading { font-family: var(--font-sans); font-size: 1.15rem; color: var(--cardinal-red); border-bottom: 2px solid var(--cardinal-red); padding-bottom: .2rem; margin-top: 1.8rem; }
+
+.feature-talk { color: var(--white); padding: 1.6rem 1.8rem; margin: 0 0 2rem; }
+.feature-talk a { color: var(--white); }
+.feature-talk__label { font-size: .9rem; font-weight: 600; text-transform: uppercase; letter-spacing: .04em; margin-bottom: .4rem; }
+.feature-talk__title { color: var(--white); margin: 0 0 .4rem; }
+.feature-talk__with { font-style: italic; }
+.button--light { background: var(--white); color: var(--plum) !important; }
+.button--light:hover, .button--light:focus { background: var(--fog-light); color: var(--black) !important; }
+.facts__links { list-style: none; padding: 0; margin: 0; }
+.facts__links li { margin-bottom: .3rem; }
+.site-footer__personal .site-footer__ai { margin-top: .5rem; font-size: .875rem; }

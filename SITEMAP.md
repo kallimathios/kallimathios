@@ -6,11 +6,11 @@ Every page is reachable from the sidebar in one click; every artifact in two.
 ```
 /                         Home
 ├── /about/               About & Statement of Librarianship
-├── /projects/            Projects (case studies; Jekyll collection `_projects`)
-│   └── /projects/<slug>/   One case study per project
+├── /initiatives/         Initiatives (Jekyll collection `_projects`)
+│   └── /initiatives/<slug>/ One page per initiative
 ├── /models/              Data Models & Vocabularies
 ├── /tools/               Code, Queries & Tools
-├── /scholarship/         Publications & Presentations
+├── /scholarship/         Scholarship & Talks (publications, featured keynote, talks by year)
 ├── /training/            Teaching & Training
 ├── /service/             Service & Community
 ├── /cv/                  CV (HTML summary + PDF download)
@@ -23,12 +23,12 @@ Every page is reachable from the sidebar in one click; every artifact in two.
 
 | Page | Purpose | Content you supply | Where it lives |
 |---|---|---|---|
-| **Home** | 10-second pitch | One-sentence identity, 3 focus areas, 2–3 featured projects | `index.md`, `_config.yml` (`focus_areas`), `featured: true` in projects |
+| **Home** | 10-second pitch | One-sentence identity, 3 focus areas, 2–3 featured initiatives | `index.md`, `_config.yml` (`focus_areas`), `featured: true` in projects |
 | **About** | Who you are and how you approach metadata | Bio (150 words), statement of librarianship (1 page), headshot | `about.md`, `assets/img/headshot.jpg` |
-| **Projects** | Evidence of impact | 4–8 case studies: problem, approach, data model, outcomes, links | `_projects/*.md` |
+| **Initiatives** | Evidence of impact | Committee-led and individual efforts: problem, role, approach, outcomes, related talks | `_projects/*.md` |
 | **Data Models & Vocabularies** | Show modeling skill directly | Application profiles, ontologies/extensions, SKOS vocabularies, SHACL shapes, mappings (MARC→BIBFRAME, etc.), with links to source files | `_data/models.yml` |
 | **Code, Queries & Tools** | Show technical practice | GitHub repos, SPARQL query library, transformation scripts (XSLT, Python/rdflib), OpenRefine recipes | `_data/tools.yml` |
-| **Scholarship** | Research record | Publications, presentations, posters, datasets, with DOIs | `_data/publications.yml`, `_data/presentations.yml` |
+| **Scholarship & Talks** | Research and speaking record | Publications, featured keynote, talks grouped by year | `_data/publications.yml`, `_data/presentations.yml` |
 | **Teaching & Training** | Knowledge sharing | Workshops, staff training, guides, slides | `_data/workshops.yml` |
 | **Service** | Community and standards work | LD4, PCC, BIBFRAME/Sinopia groups, Wikidata, committees, peer review | `_data/service.yml` |
 | **CV** | Formal record | PDF CV plus short HTML highlights | `cv.md`, `assets/cv.pdf` |
