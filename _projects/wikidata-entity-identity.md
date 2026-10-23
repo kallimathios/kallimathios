@@ -4,7 +4,7 @@ summary: >-
   Bridging library authority work and Wikidata through ontology research, prototypes,
   cataloging workflows, and community training, so identities for people and works stay
   precise and reusable across metadata styles.
-role: "Lead author; workshop instructor; keynote co-presenter; Stanford Wikidata Community of Practice Lead"
+role: "Lead author; workshop instructor; keynote co-presenter; Stanford Wikidata Community of Practice"
 start: "2020"
 status: "Ongoing"
 collaborators:
@@ -25,11 +25,11 @@ order: 3
 
 ## The problem
 
-Libraries invest heavily in string-based MARC authority data: complete, correct, consistent descriptions of
+Libraries invest heavily in authority data: complete, correct, consistent descriptions of
 people, organizations, and works. Wikidata is the most widely reused open knowledge graph,
-feeding search engines, open-source literacy applications, voice assistants, and AI systems. But the two don't line up neatly.
+feeding search engines, voice assistants, and AI systems. But the two don't line up neatly.
 Wikidata's crowd-sourced bibliographic model conflates entities that library models keep
-distinct, which limits reuse in both directions despite both having a strong dedication to the public domain and the commonwealth of global knowledge.
+distinct, which limits reuse in both directions.
 
 ## Research: refining Wikidata's bibliographic domain
 
@@ -61,7 +61,7 @@ Wikidata's bibliographic domain and proposed refinements:
 
 ## Teaching and community
 
-- **Love Data Week 2025 and 2026 Wikidata Edit-a-thons** (Stanford): introduction to Wikidata, editing
+- **Love Data Week 2026 Wikidata Edit-a-thon** (Stanford): introduction to Wikidata, editing
   ethics, and hands-on contribution
 - **DCMI 2026 workshop, Seoul**: "Wikidata for Open Innovation in Libraries, Industry, and
   Communities", a two-hour session with presentation and edit-a-thon
