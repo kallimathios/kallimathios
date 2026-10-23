@@ -22,7 +22,7 @@ layout: default
   <h2 id="featured-heading">Featured initiatives</h2>
   {% assign featured = site.projects | where: "featured", true | sort: "order" %}
   <div class="project-grid">
-    {% for p in featured limit: 3 %}{% include project-card.html project=p %}{% endfor %}
+    {% for p in featured limit: 4 %}{% include project-card.html project=p %}{% endfor %}
   </div>
   <p><a class="button" href="{{ '/initiatives/' | relative_url }}">All initiatives</a></p>
 </section>

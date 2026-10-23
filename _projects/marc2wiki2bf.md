@@ -12,7 +12,7 @@ standards: [BIBFRAME, MARC 21, Wikidata, SPARQL, JSON-LD]
 tools: ["Python", "rdflib", "pymarc", "rapidfuzz", "Wikidata Query Service", "Blue Core API", "Keycloak", "Jupyter"]
 repo: ""   # add the GitHub URL
 talk_tag: marc2wiki2bf
-featured: false
+featured: true
 order: 4
 ---
 
