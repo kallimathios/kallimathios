@@ -1,0 +1,111 @@
+# Teaching & Training, grouped by area. Sources: slide decks, CV, presentations.yml.
+#   title, audience, date, description   shown on the page
+#   materials_url   optional link to slides, a recording, or a paper
+#   link            optional site path to a related page
+
+- category: "Wikidata workshops"
+  items:
+    - title: "Wikidata for Open Innovation in Libraries, Industry, and Communities"
+      audience: "DCMI 2026 conference attendees, Seoul"
+      date: "August 2026"
+      description: >-
+        A two-hour workshop: an hour on Wikidata's ontology, its reuse in industry and AI, and
+        Stanford's work in the EMCO early adopters program, then an hour-long edit-a-thon with
+        contributions tracked on a Wiki Education dashboard.
+      materials_url: "https://doi.org/10.23106/dcmi.952699250"
+      link: /initiatives/wikidata-entity-identity/
+    - title: "Wikidata Ontology & the Bibliographic Domain"
+      audience: "Wikidata Ontology Course participants (guest talk)"
+      date: "June 18, 2026"
+      description: >-
+        How conceptual models like IFLA LRM become ontologies, how BIBFRAME and Wikidata's
+        WikiProject Books model bibliographic resources differently, and the refinements proposed
+        in my Journal of Open Humanities Data article, with a demo of generating a BIBFRAME Work
+        from a Wikidata item.
+      link: /initiatives/marc2wiki2bf/
+    - title: "Introduction to Wikidata: Love Data Week Edit-a-thon"
+      audience: "Stanford community"
+      date: "February 2026"
+      description: >-
+        A hands-on introduction to items, properties, statements, references, identifiers, and the
+        Query Service, including guidelines for ethical editing: credible sources, respecting
+        privacy and self-identification, and correcting misinformation. Participants started from
+        a sample set of archives at Stanford.
+      link: /initiatives/wikidata-entity-identity/
+
+- category: "Linked data training at Stanford"
+  items:
+    - title: "Modern MARC Training"
+      audience: "Stanford Libraries Data Control Unit"
+      date: "November 18, 2026 (upcoming)"
+      description: >-
+        A session focused on the Library of Congress's Modern MARC practice, announced in March
+        2026: records with more identifiers and URIs, less coded fixed-field data, and more textual
+        RDA data in variable fields. It covers before-and-after examples, such as URIs added to the
+        340 and separate 264 fields replacing a combined 260, what these records mean for data
+        control work, and how to find them in SearchWorks and FOLIO.
+      link: /initiatives/folio-marc-authorities/
+    - title: "URIs in MARC & Modern MARC"
+      audience: "Stanford Libraries Metadata Creation Unit"
+      date: "May 6, 2026"
+      description: >-
+        Part one covered URI basics: why URIs matter for linked data and BIBFRAME conversion, the
+        forms they take, real world objects, and moving "from strings to things." It explained the
+        difference between $0, the source of authority control for a heading, and $1, the real world
+        object a field is about, using the PCC URI FAQs and records from Stanford's FOLIO catalog. A
+        "$0 or $1?" exercise worked through LCSH, LCGFT, LCNAF, FAST, Wikidata, ISNI, VIAF,
+        GeoNames, ORCID, and the RDA Registry, followed by guidance on which URIs to use, including
+        Stanford's practice of adding 024 fields to name authority records. Part two introduced
+        Modern MARC with before-and-after examples.
+      link: /initiatives/folio-marc-authorities/
+    - title: "Linked Open Data @ SUL: BIBFRAME, Blue Core, Sinopia"
+      audience: "Stanford Libraries Access Services staff"
+      date: "April 17, 2026"
+      description: >-
+        Why libraries are moving from MARC to linked open data, explained through RDF triples,
+        live Blue Core data, and how BIBFRAME, Sinopia, Blue Core, Share-VDE, and Wikidata fit
+        together, so colleagues outside technical services can see what the change means for
+        their work.
+      link: /initiatives/blue-core/
+    - title: "Creating Descriptions in Sinopia: A Beginner's Workshop"
+      audience: "Catalogers new to Sinopia"
+      date: "2023–2025"
+      description: >-
+        A first look at creating BIBFRAME descriptions in Sinopia: accounts and permissions,
+        groups, searching, and using PCC templates to describe Works and Instances.
+      link: /initiatives/sinopia/
+    - title: "Creating & Modifying Templates in Sinopia"
+      audience: "Experienced Sinopia users"
+      date: "2023–2025"
+      description: >-
+        Resource template fundamentals: an overview of PCC templates, copying and adapting an
+        existing template, building one from scratch, and choosing BIBFRAME classes and properties,
+        including the ARM extension.
+      link: /initiatives/sinopia/
+
+- category: "Community working hours"
+  items:
+    - title: "PCC Sinopia Cataloging Affinity Group"
+      audience: "Sinopia catalogers worldwide (monthly; co-convener)"
+      date: "2023–present"
+      description: >-
+        Monthly meetings that serve as a central place for BIBFRAME training and feedback. They
+        include the 2025 Sinopia User Forum, a look back at six years of cataloging in Sinopia, and
+        the 2026 Sinopia Alma User Forum, which gathered needs as Alma libraries adopt a new linked
+        data editor. Breakout discussions feed directly into GitHub issues and future work cycles.
+      link: /initiatives/sinopia/
+
+- category: "Earlier teaching"
+  items:
+    - title: "Engaging Educators with Digital Collections"
+      audience: "K-12 educators and archivists (DPLAfest; K-12 Archives Education Institute)"
+      date: "2016–2017"
+      description: >-
+        As a Digital Public Library of America community representative, I showed educators how
+        to bring primary sources from digital collections into their classrooms.
+    - title: "School Outreach Workshops, Brooklyn Public Library"
+      audience: "Educators, students, and parents at 50 Brooklyn K-12 schools"
+      date: "2015–2017"
+      description: >-
+        Designed and delivered workshops for educators, students, and parents while managing
+        relationships with 50 schools in the MyLibraryNYC program.
