@@ -1,0 +1,202 @@
+# CV content for cv.md. Source: CV_current [09-28-2026].docx
+# Personal contact details (home address, phone, personal email) are intentionally left out
+# of the public site.
+
+updated: "September 2026"
+
+experience:
+  - org: "Stanford University Libraries"
+    title: "Authorities & Entity Management Librarian"
+    dates: "February 2025–present"
+    location: "Hybrid on-site"
+    description: >-
+      Manages MARC authority data for Stanford University Libraries. Helps advance the production
+      of linked open data cataloging within Stanford University Libraries and beyond by serving as
+      a Sinopia administrator, developing and delivering staff training, and collaborating across
+      departments and professional communities. Serves as Product Owner and Project Manager for
+      Blue Core, and participates in planning for new metadata and technical service workflows.
+      Collaborates closely with developers on metadata systems and workflow design. Works with
+      Sinopia users to fine-tune templates and receive feedback for development and future
+      projects. Supports Open Metadata policy and initiatives, and facilitates the routine deposit
+      of CC0 licensed bibliographic metadata to the Stanford Repository.
+  - org: "Stanford University Libraries"
+    title: "Linked Data Community Outreach Librarian"
+    dates: "October 2023–February 2025"
+    location: "Remote"
+    description: >-
+      Helped advance the production of linked open data cataloging within Stanford University
+      Libraries and beyond by serving as a Sinopia administrator, and collaborating across
+      departments and professional communities. Served as Project Manager for Blue Core, and
+      participated in project planning for new metadata and technical service workflows. Worked
+      with Sinopia users to fine-tune templates and receive feedback for development and future
+      projects.
+  - org: "Teachers College, Columbia University"
+    title: "Head of Technical Services and Metadata Librarian"
+    dates: "March 2021–September 2023"
+    location: "New York, NY"
+    description: >-
+      Responsible for collections operations and acquisitions, cataloging and metadata, library
+      systems administration, ARL statistics and collection statistics, course reserves,
+      interlibrary loan, electronic resource management, and technical services areas. Provided
+      strategic planning for library and College-wide metadata workflows, projects, and grants.
+  - org: "Teachers College, Columbia University"
+    title: "Acquisitions and Materials Librarian"
+    dates: "September 2018–January 2021"
+    location: "New York, NY"
+    description: >-
+      Responsible for managing a patron-driven acquisitions program, interlibrary loan, metadata
+      workflows, electronic resources, and a homegrown document delivery system and service for
+      library acquisitions. Assisted with gathering collections statistics for annual ARL reporting.
+  - org: "Brooklyn Public Library"
+    title: "Library Information Supervisor"
+    dates: "2017–2018"
+    location: "Brooklyn, NY"
+    description: >-
+      Managing librarian responsible for general branch operations including staff scheduling,
+      performance reviews, program development, and customer service with a specialization in
+      children's services and programming.
+  - org: "Brooklyn Public Library"
+    title: "School Outreach Librarian"
+    dates: "2015–2017"
+    location: "Brooklyn, NY"
+    description: >-
+      Outreach librarian responsible for designing and delivering educator, student, and parent
+      workshops while managing relationships with 50 Brooklyn K-12 schools in the MyLibraryNYC
+      program.
+  - org: "Brooklyn Public Library"
+    title: "Children's Librarian"
+    dates: "2014–2015"
+    location: "Brooklyn, NY"
+    description: >-
+      Responsibilities included desk reference and services for school-age children and their
+      families.
+  - org: "Sussman Sales Company"
+    title: "Librarian and Media Specialist"
+    dates: "2012–2013"
+    location: "New York, NY"
+    description: >-
+      Responsible for the curation and ordering of book collections for K-12 classroom and school
+      libraries, as well as bibliographic database development and administration for e-commerce
+      purposes, company catalog production, marketing materials, and maintaining publisher
+      relationships.
+
+education:
+  - degree: "MLIS"
+    school: "University of Illinois"
+    date: "May 2014"
+    location: "Urbana-Champaign, IL"
+  - degree: "BSEd"
+    school: "Loyola University Chicago"
+    date: "May 2008"
+    location: "Chicago, IL"
+
+publications:
+  - citation: "Mathios, K., & Nelson, J. (2026). Iterating from prototype to MVP: A Blue Core project report. <em>Proceedings of the International Conference on Dublin Core and Metadata Applications</em>, 2026."
+    doi: "10.23106/dcmi.952621057"
+  - citation: "Mathios, K., & Lorimer, N. (2026). BIBFRAME cataloging with Sinopia. <em>Proceedings of the International Conference on Dublin Core and Metadata Applications</em>, 2026."
+    doi: "10.23106/dcmi.952661322"
+  - citation: "Mathios, K. (2026). Wikidata for open innovation in libraries, industry, and communities. <em>Proceedings of the International Conference on Dublin Core and Metadata Applications</em>, 2026."
+    doi: "10.23106/dcmi.952699250"
+  - citation: "Mathios, K., Doğan, E. A., & Nelson, J. (2026). Refining Wikidata's bibliographic domain to increase reuse in GLAMs. <em>Journal of Open Humanities Data</em>, <em>12</em>, Article 3."
+    doi: "10.5334/johd.454"
+  - citation: "Mathios, K., & Nelson, J. (2025). BIBFRAME, AI, and open-source technologies: A Blue Core project report. <em>Proceedings of the International Conference on Dublin Core and Metadata Applications</em>, 2025."
+    doi: "10.23106/dcmi.952583208"
+
+presentations:
+  - citation: "Mathios, K., & Nelson, J. (2026). <em>Blue Core MVP community update</em>. 2026 LD4 Conference, Linked Data in Practice: Building the Future of Knowledge Systems, September 28–30, online."
+  - citation: "Mathios, K. (2026). <em>Never guess: A tiered approach to linked data reconciliation</em>. 2026 LD4 Conference, Linked Data in Practice: Building the Future of Knowledge Systems, September 28–30, online."
+  - citation: "Mathios, K. (2026). <em>Sinopia for Blue Core</em>. 2026 LD4 Conference, Linked Data in Practice: Building the Future of Knowledge Systems, September 28–30, online."
+  - citation: "Mathios, K., & Nelson, J. (2026). <em>Blue Core MVP</em>. Metadata and Discovery Group of Scotland (MDGS) Bites Session, online."
+  - citation: "Baker, T., Mathios, K., & Lindström, N. (2026, August 3). <em>Identity in context across metadata styles</em> [Keynote]. DCMI 2026, Seoul, South Korea."
+    keynote: true
+  - citation: "Mathios, K., Nelson, J., Ockerbloom, J. M., & Folsom, S. (2026). <em>Blue Core MVP</em>. Library of Congress BIBFRAME Update Forum, online."
+  - citation: "Cramer, T., Warner, S., Mathios, K., & Mentis, D. (2025, October 25). <em>Collaborative production of authoritative metadata</em> [Keynote panel]. DCMI 2025, Barcelona, Spain."
+    keynote: true
+  - citation: "Mathios, K., & Nelson, J. (2025, October 24). <em>BIBFRAME, AI, and open-source technologies: A Blue Core project report</em> [Conference presentation]. DCMI 2025, Barcelona, Spain."
+  - citation: "Mathios, K. (2025, October 24). <em>BIBFRAME Interoperability Group: Thoughtful reuse across the BIBFRAME ecosystem</em> [Invited talk]. DCMI 2025, Barcelona, Spain."
+  - citation: "Daniels, L., Lorimer, N., Mathios, K., Warner, S., Folsom, S., & Nelson, J. (2025, September 24). <em>The future of metadata is open: Blue Core and FOLIO</em> [Conference presentation]. WOLFcon 2025, Kansas City, MO, United States, and online."
+  - citation: "Mathios, K., & Nelson, J. (2025, September 17). <em>Connecting the dots: Modular design for BIBFRAME implementation with Blue Core</em> [Conference presentation]. BFWE 2025, Naples, Italy."
+  - citation: "Lorimer, N., Mathios, K., Nelson, J., & Daniels, L. (2025, July 28). <em>Navigating the edges: A design approach to Blue Core</em> [Conference presentation]. LD4 2025 Conference, online."
+  - citation: "Li, X., Possemato, T., & Mathios, K. (2025, March 19). <em>BIBFRAME Interoperability Group: Tackling implementation challenges across institutions</em> [Conference presentation]. Metadata Standards Symposium, The National Library of Greece, Athens, Greece."
+  - citation: "Mathios, K. (2024, October 11). <em>Designing Blue Core: Enabling scalable, collaborative linked data for libraries</em> [Conference presentation]. LD4 2024 Conference, online."
+  - citation: "Mathios, K. (2022, October 29). <em>NYC open education data</em> [Conference presentation]. Wikimedia NYC Wikidata Day, New York, NY, United States."
+  - citation: "Mathios, K. (2017, April 20). <em>Engaging educators with digital collections</em> [Conference presentation]. DPLAfest, Chicago, IL, United States."
+  - citation: "Mathios, K. (2016, October 22). <em>Engaging educators with DPLA resources</em> [Conference presentation]. The K-12 Archives Education Institute, The Archivists Roundtable, The National Archives, New York, NY, United States."
+
+service:
+  current:
+    - "ALA Core Linked Data Interest Group, Co-Chair, 2026–present"
+    - "M2, Co-Editor-in-Chief, 2026–present"
+    - "DCMI 2026 Conference, Workshops Co-Chair, 2026–present"
+    - "Stanford Wikidata Community of Practice, 2026–present"
+    - "Stanford Product Owners Community of Practice, 2026–present"
+    - "BIBFRAME Interoperability Group, Past Chair, 2026–present (Chair, 2025–2026; Incoming Chair, 2024–2025; Member, 2023–present)"
+    - "DCMI Usage Board, 2025–present"
+    - "FOLIO Linked Open Data SIG, Co-Convener, 2025–present"
+    - "LD4 Steering Committee, Chair, 2024–present"
+    - "PCC Sinopia Cataloging Affinity Group, Co-Convener, 2023–present"
+    - "Share-VDE UX/UI Working Group, 2023–present"
+  past:
+    - "LD4 2023 Conference, Co-Chair, 2022–2023"
+    - "LD4 Conference Planning Committee, 2022"
+    - "ACRL/NY, Member, 2021–2022"
+    - "LD4 Wikidata Affinity Group, 2019–2023"
+    - "DLF Digital Library Pedagogy Working Group, Member, 2019–2020"
+    - "Brooklyn Public Library: Chair, Fiction & Poetry Literary Prize, 2018; Co-Chair, Kids Web Steering, 2018; Member, Website Redesign Focus Group, 2017; Participant, Daddy & Me, 2015–2018; Participant, Rolling Cart Jail Service, 2015; Monitor, BKLYN BookMatch, 2014–2017"
+
+grants:
+  - "Metadata Advisor, “Understanding Teachers’ Culturally Responsive Strategies to Emergency Remote Instruction.” Spencer Foundation COVID-related Research Grants, 2020–2021."
+
+volunteer:
+  - role: "AIDS Quilt Repair Volunteer"
+    org: "National AIDS Memorial"
+    dates: "2026"
+    location: "San Leandro, CA"
+  - role: "Editor"
+    org: "Wikidata"
+    dates: "2020–present"
+    location: "New York, NY"
+  - role: "Associate Producer"
+    org: "WFMU Radio"
+    dates: "2021"
+    location: "New York, NY"
+  - role: "Community Representative"
+    org: "Digital Public Library of America"
+    dates: "2016–2018"
+    location: "New York, NY"
+  - role: "Digital Archivist"
+    org: "Chicago History Museum"
+    dates: "Summer 2012"
+    location: "Chicago, IL"
+
+courses:
+  - course: "Python for Librarians"
+    provider: "Library Juice Academy"
+    date: "September 2026"
+  - course: "Wikidata Ontology Course"
+    provider: "Wikimedia Foundation"
+    date: "May 2025"
+  - course: "Intro to JSON & Structured Data"
+    provider: "Library Juice Academy"
+    date: "February 2024"
+  - course: "SPARQL Fundamentals"
+    provider: "Library Juice Academy"
+    date: "January 2024"
+  - course: "Intro to Linked Data"
+    provider: "Library Juice Academy"
+    date: "December 2023"
+  - course: "Intro to RDF"
+    provider: "Library Juice Academy"
+    date: "October 2023"
+  - course: "ALA Core Cataloging Fundamentals"
+    provider: "ALA Core"
+    date: "February 2023"
+  - course: "Alma Administrator"
+    provider: "Ex Libris Group"
+    date: "April 2021"
+  - course: "Primo VE Administrator"
+    provider: "Ex Libris Group"
+    date: "April 2021"
+  - course: "Wikidata Institute"
+    provider: "Wiki Education"
+    date: "November 2020"

@@ -12,6 +12,10 @@ data_url: ""
 links:
   - label: "Blue Core website"
     url: "https://bluecore.info/"
+  - label: "DCMI 2026 paper: Iterating from Prototype to MVP"
+    url: "https://doi.org/10.23106/dcmi.952621057"
+  - label: "DCMI 2025 paper: BIBFRAME, AI, and Open-Source Technologies"
+    url: "https://doi.org/10.23106/dcmi.952583208"
 talk_tag: blue-core
 featured: true
 order: 1

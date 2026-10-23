@@ -16,6 +16,20 @@
 # Items marked "CHECK" need a date or venue confirmed.
 
 # ---------------------------------------------------------------- 2026
+- title: "Never Guess: A Tiered Approach to Linked Data Reconciliation"
+  event: "LD4 2026 Conference"
+  when: "September 28–30, 2026"
+  year: 2026
+  type: "Presentation"
+  initiative: marc2wiki2bf
+
+- title: "Sinopia for Blue Core"
+  event: "LD4 2026 Conference"
+  when: "September 28–30, 2026"
+  year: 2026
+  type: "Presentation"
+  initiative: [sinopia, blue-core]
+
 - title: "Blue Core MVP Community Update"
   event: "LD4 2026 Conference"
   when: "September 28, 2026"
@@ -25,7 +39,7 @@
   initiative: blue-core
 
 - title: "Implementing Open BIBFRAME with the Blue Core MVP"
-  event: "MDGS Bite Session on Blue Core / BIBFRAME"
+  event: "Metadata and Discovery Group of Scotland (MDGS) Bites Session"
   when: "August 25, 2026"
   year: 2026
   type: "Presentation"
@@ -105,8 +119,16 @@
   initiative: [wikidata, marc2wiki2bf]
 
 # ---------------------------------------------------------------- 2025
+- title: "Collaborative Production of Authoritative Metadata"
+  event: "DCMI 2025, Barcelona"
+  when: "October 25, 2025"
+  year: 2025
+  type: "Keynote panel"
+  copresenters: ["Tom Cramer", "Simeon Warner", "D. Mentis"]
+  initiative: blue-core
+
 - title: "BIBFRAME, AI, and Open-Source Technologies: A Blue Core Project Report"
-  event: "DCMI 2025"
+  event: "DCMI 2025, Barcelona"
   when: "October 24, 2025"
   year: 2025
   type: "Paper"
@@ -121,11 +143,19 @@
   initiative: blue-core
 
 - title: "BIBFRAME Interoperability Group: Thoughtful Reuse Across the BIBFRAME Ecosystem"
-  event: "DCMI 2025"
-  when: "October 2025"
+  event: "DCMI 2025, Barcelona"
+  when: "October 24, 2025"
+  year: 2025
+  type: "Invited talk"
+  initiative: bibframe-interop
+
+- title: "The Future of Metadata Is Open: Blue Core and FOLIO"
+  event: "WOLFcon 2025, Kansas City, and online"
+  when: "September 24, 2025"
   year: 2025
   type: "Presentation"
-  initiative: bibframe-interop
+  copresenters: ["Laura Daniels", "Nancy Lorimer", "Simeon Warner", "Steven Folsom", "Jeremy Nelson"]
+  initiative: blue-core
 
 - title: "Open Community, Data, and Software: An LD4 Community Update"
   event: "WOLFcon 2025"
@@ -142,8 +172,8 @@
   initiative: sinopia
 
 - title: "Connecting the Dots: Modular Design for BIBFRAME Implementation with Blue Core"
-  event: "BIBFRAME Workshop in Europe 2025"
-  when: "September 2025"
+  event: "BIBFRAME Workshop in Europe 2025, Naples"
+  when: "September 17, 2025"
   year: 2025
   type: "Presentation"
   copresenters: ["Jeremy Nelson"]
@@ -159,7 +189,7 @@
 
 - title: "Navigating the Edges: A Design Approach to Blue Core"
   event: "LD4 2025 Conference"
-  when: "July 2025"
+  when: "July 28, 2025"
   year: 2025
   type: "Presentation"
   copresenters: ["Laura Daniels (Cornell)", "Nancy Lorimer", "Jeremy Nelson"]
@@ -188,7 +218,7 @@
   initiative: sinopia
 
 - title: "BIBFRAME Interoperability Group: Tackling Implementation Challenges Across Institutions"
-  event: "2025 Metadata Standards Symposium, Athens"   # CHECK venue name
+  event: "Metadata Standards Symposium, National Library of Greece, Athens"
   when: "March 19, 2025"
   year: 2025
   type: "Presentation"
@@ -219,7 +249,7 @@
 
 - title: "Designing Blue Core: Enabling Scalable, Collaborative Linked Data for Libraries"
   event: "LD4 2024 Conference"
-  when: "July 2024"
+  when: "October 11, 2024"
   year: 2024
   type: "Presentation"
   initiative: blue-core
@@ -238,6 +268,28 @@
   year: 2024
   type: "User forum"
   initiative: sinopia
+
+# ---------------------------------------------------------------- 2022
+- title: "NYC Open Education Data"
+  event: "Wikimedia NYC Wikidata Day, New York"
+  when: "October 29, 2022"
+  year: 2022
+  type: "Presentation"
+  initiative: wikidata
+
+# ---------------------------------------------------------------- 2017
+- title: "Engaging Educators with Digital Collections"
+  event: "DPLAfest, Chicago"
+  when: "April 20, 2017"
+  year: 2017
+  type: "Presentation"
+
+# ---------------------------------------------------------------- 2016
+- title: "Engaging Educators with DPLA Resources"
+  event: "K-12 Archives Education Institute, The Archivists Round Table, National Archives, New York"
+  when: "October 22, 2016"
+  year: 2016
+  type: "Presentation"
 
 # ---------------------------------------------------------------- Undated
 - title: "Sinopia / FOLIO Integration"

@@ -18,6 +18,8 @@ tools: ["Wikidata", "QLever", "OpenRefine", "QuickStatements", "Blue Core Graph 
 links:
   - label: "Journal of Open Humanities Data article (doi:10.5334/johd.454)"
     url: "https://doi.org/10.5334/johd.454"
+  - label: "DCMI 2026 workshop paper: Wikidata for Open Innovation"
+    url: "https://doi.org/10.23106/dcmi.952699250"
 talk_tag: wikidata
 featured: true
 order: 3
@@ -43,7 +45,7 @@ Wikidata's bibliographic domain and proposed refinements:
 - New property proposals (*has version*, *has edition*, *has translation*, issue date)
 
 > Mathios, K., Doğan, E. A., & Nelson, J. (2026). Refining Wikidata's Bibliographic Domain
-> to Increase Reuse in GLAMs. *Journal of Open Humanities Data*, 12(1), 3.
+> to Increase Reuse in GLAMs. *Journal of Open Humanities Data*, 12, Article 3.
 > [doi:10.5334/johd.454](https://doi.org/10.5334/johd.454)
 
 ## Prototypes

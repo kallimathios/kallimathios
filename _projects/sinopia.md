@@ -17,6 +17,8 @@ links:
     url: "https://github.com/LD4P/ils-middleware"
   - label: "Sinopia Graph Explorer"
     url: "https://ld4p.github.io/graph-explorer/"
+  - label: "DCMI 2026 paper: BIBFRAME Cataloging with Sinopia"
+    url: "https://doi.org/10.23106/dcmi.952661322"
 talk_tag: sinopia
 featured: false
 order: 5
