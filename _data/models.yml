@@ -1,0 +1,32 @@
+# Application profiles, ontologies, vocabularies, shapes, mappings
+- title: "BIBFRAME-to-FOLIO Inventory Instance Mapping"
+  type: "Crosswalk"
+  role: "Author"
+  status: "Community draft"
+  standards: [BIBFRAME, FOLIO Inventory, id.loc.gov vocabularies]
+  description: >-
+    A field-by-field crosswalk from BIBFRAME Work and Instance descriptions to FOLIO Inventory
+    Instance records, shared with the FOLIO Linked Data community to inspire default mappings for
+    connecting external RDF-based data stores to FOLIO. For each Inventory field it names the
+    BIBFRAME property, target class, and whether the data lives on the Work or the Instance.
+    Coverage includes titles, identifiers, contributors, publication, edition, resource type,
+    format, language, notes, electronic access, subjects, and classification. Controlled values
+    resolve to id.loc.gov vocabularies (issuance, content types, carriers, note types, and status).
+  draft_note: >-
+    Offered as a working draft rather than a finished standard: a living document, refined
+    alongside community conversation and the continued evolution of BIBFRAME and FOLIO. Fields
+    marked "not mapped" or left open show where that conversation is still under way.
+  url: "https://folio-org.atlassian.net/wiki/spaces/LD/pages/1039073292/Draft+WIP+BIBFRAME-to-Inventory+Instance+Mappings"
+  formats: [FOLIO Wiki table]
+- title: "Accessibility Properties for DCMI Metadata Terms"
+  type: "Vocabulary proposal"
+  role: "Co-author; DCMI Usage Board"
+  status: "Under review"
+  standards: [DCMI Metadata Terms, SKOS, DC-SRAP, Schema.org accessibility vocabularies]
+  description: >-
+    A proposal for adding accessibility to DCMI Metadata Terms through two complementary
+    properties: dcterms:accessibility for controlled values identified by URIs, and
+    dcterms:accessibilitySummary for free-text description. It was shaped by public comment on an
+    earlier single-property draft.
+  url: "#accessibility"
+  formats: [RDF/Turtle, GitHub issues]

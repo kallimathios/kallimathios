@@ -1,0 +1,90 @@
+# Professional service, grouped by area. Source: CV (September 2026).
+#   role, group, dates   shown on the Service page
+#   note                 optional extra detail, shown after the dates
+#   link                 optional site path (for example /initiatives/sinopia/) to a related page
+
+- category: "Metadata standards"
+  items:
+    - role: "Past Chair"
+      group: "BIBFRAME Interoperability Group"
+      dates: "2026–present"
+      note: "Chair, 2025–2026; Incoming Chair, 2024–2025; Member since 2023"
+      link: /initiatives/bibframe-interoperability/
+    - role: "Member"
+      group: "DCMI Usage Board"
+      dates: "2025–present"
+      link: /models/#accessibility
+    - role: "Member"
+      group: "Share-VDE UX/UI Working Group"
+      dates: "2023–present"
+
+- category: "Linked data community"
+  items:
+    - role: "Chair"
+      group: "LD4 Steering Committee"
+      dates: "2024–present"
+    - role: "Co-Chair"
+      group: "ALA Core Linked Data Interest Group"
+      dates: "2026–present"
+    - role: "Co-Convener"
+      group: "FOLIO Linked Open Data SIG"
+      dates: "2025–present"
+    - role: "Co-Convener"
+      group: "PCC Sinopia Cataloging Affinity Group"
+      dates: "2023–present"
+      link: /initiatives/sinopia/
+    - role: "Member"
+      group: "LD4 Wikidata Affinity Group"
+      dates: "2019–2023"
+
+- category: "Conferences & publishing"
+  items:
+    - role: "Co-Editor-in-Chief"
+      group: "M2"
+      dates: "2026–present"
+    - role: "Workshops Co-Chair"
+      group: "DCMI 2026 Conference"
+      dates: "2026–present"
+    - role: "Co-Chair"
+      group: "LD4 2023 Conference"
+      dates: "2022–2023"
+    - role: "Member"
+      group: "LD4 Conference Planning Committee"
+      dates: "2022"
+
+- category: "Stanford University Libraries"
+  items:
+    - role: "Member"
+      group: "Stanford Wikidata Community of Practice"
+      dates: "2026–present"
+      link: /initiatives/wikidata-entity-identity/
+    - role: "Member"
+      group: "Stanford Product Owners Community of Practice"
+      dates: "2026–present"
+
+- category: "Earlier service"
+  items:
+    - role: "Member"
+      group: "ACRL/NY"
+      dates: "2021–2022"
+    - role: "Member"
+      group: "DLF Digital Library Pedagogy Working Group"
+      dates: "2019–2020"
+    - role: "Chair"
+      group: "Fiction & Poetry Literary Prize, Brooklyn Public Library"
+      dates: "2018"
+    - role: "Co-Chair"
+      group: "Kids Web Steering, Brooklyn Public Library"
+      dates: "2018"
+    - role: "Member"
+      group: "Website Redesign Focus Group, Brooklyn Public Library"
+      dates: "2017"
+    - role: "Participant"
+      group: "Daddy & Me, Brooklyn Public Library"
+      dates: "2015–2018"
+    - role: "Participant"
+      group: "Rolling Cart Jail Service, Brooklyn Public Library"
+      dates: "2015"
+    - role: "Monitor"
+      group: "BKLYN BookMatch, Brooklyn Public Library"
+      dates: "2014–2017"
