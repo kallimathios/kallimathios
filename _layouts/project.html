@@ -11,7 +11,7 @@ layout: default
       {{ content }}
 
       {% if page.talk_tag %}
-      {% assign related = site.data.presentations | where: "initiative", page.talk_tag %}
+      {% assign related = site.data.presentations | where_exp: "t", "t.initiative contains page.talk_tag" %}
       {% if related.size > 0 %}
       <h2 id="related-talks">Related talks &amp; workshops</h2>
       <ul class="talk-list">

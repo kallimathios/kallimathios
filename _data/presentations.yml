@@ -8,8 +8,8 @@
 #   type        Keynote | Paper | Presentation | Workshop | Lightning talk |
 #               Community update | User forum | Internal briefing
 #   copresenters Co-presenters (leave out if solo)
-#   initiative  Links the talk to an initiative page:
-#               bibframe-interop | wikidata | blue-core | sinopia | ld4 | folio
+#   initiative  Links the talk to an initiative page (one value, or a list like [wikidata, marc2wiki2bf]):
+#               bibframe-interop | wikidata | marc2wiki2bf | blue-core | sinopia | ld4 | folio
 #   featured    true = highlighted at the top of Scholarship & Talks
 #   slides_url / video_url   Optional links
 #
@@ -52,7 +52,7 @@
   when: "August 2026"
   year: 2026
   type: "Workshop"
-  initiative: wikidata
+  initiative: [wikidata, marc2wiki2bf]
 
 - title: "Blue Core MVP: Planning for BIBFRAME Implementation"
   event: "Stanford Libraries DLSS PSM Team"
@@ -102,7 +102,7 @@
   when: "2026"                   # CHECK date and venue
   year: 2026
   type: "Presentation"
-  initiative: wikidata
+  initiative: [wikidata, marc2wiki2bf]
 
 # ---------------------------------------------------------------- 2025
 - title: "BIBFRAME, AI, and Open-Source Technologies: A Blue Core Project Report"

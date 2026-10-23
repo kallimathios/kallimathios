@@ -1,12 +1,41 @@
-- title: "SPARQL query library"
-  description: "Placeholder. Reusable queries for metadata quality reports."
-  language: SPARQL
-  url: "https://github.com/USERNAME/sparql-queries"
-- title: "Reconciliation scripts"
-  description: "Placeholder. Python/rdflib scripts that reconcile local names to Wikidata and LCNAF."
-  language: Python
-  url: ""
-- title: "OpenRefine recipes"
-  description: "Placeholder. Documented OpenRefine workflows for cleanup before RDF conversion."
-  language: GREL
-  url: ""
+# Code I've written, and open-source tools I help shape.
+#   role: Creator | Product Owner | Contributor | Tester ...
+#   initiative: the matching file name in _projects/ (without .md), to link the two
+
+- title: "MARC2Wiki2BF"
+  description: >-
+    Python pipeline that converts MARC21 or spreadsheet records into BIBFRAME Work and Instance
+    RDF, reconciles them with Wikidata (identifier-first, with checks for person identity and
+    Work-versus-edition level), and pushes them to the Blue Core API with duplicate checking.
+    Includes a Jupyter notebook walkthrough.
+  language: "Python · SPARQL · rdflib · pymarc"
+  role: "Creator (AI-assisted development)"
+  url: ""        # add the GitHub URL
+  initiative: marc2wiki2bf
+
+- title: "BIBFRAME Interoperability Validation Tool"
+  description: >-
+    DCTAP-to-SHACL validation for BIBFRAME. Validate RDF by URL or file upload against the
+    BIBFRAME Interoperability Group's shapes for monographs and serials.
+  language: "DCTAP · SHACL"
+  role: "Lead metadata tester; BIG Chair"
+  url: "https://bf-interop.github.io/bf-demo-validation-tool"
+  initiative: bibframe-interoperability
+
+- title: "Blue Core"
+  description: >-
+    Community-operated BIBFRAME data store: FastAPI, Postgres, Keycloak, Apache Airflow
+    workflows, and Blue Core instances of the Sinopia and Marva editors.
+  language: "Python · BIBFRAME · Airflow"
+  role: "Project Manager & Product Owner"
+  url: "https://github.com/blue-core-lod"
+  initiative: blue-core
+
+- title: "Sinopia Editor & ILS Middleware"
+  description: >-
+    Open-source BIBFRAME linked data editor, plus Airflow-based middleware that sends Sinopia
+    descriptions to Symphony, Alma, and FOLIO using SPARQL mapping templates.
+  language: "JavaScript · Python · SPARQL"
+  role: "Product Owner"
+  url: "https://github.com/LD4P/sinopia_editor"
+  initiative: sinopia
