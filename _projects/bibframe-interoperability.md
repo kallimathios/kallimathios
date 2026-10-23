@@ -4,7 +4,7 @@ summary: >-
   Leading an international effort to define shared BIBFRAME shapes and validate data
   with tabular application profiles converted to SHACL, so BIBFRAME created anywhere
   can be reused consistently across institutions, tools, and data pools.
-role: "Chair, BIBFRAME Interoperability Group (2024–2027)"
+role: "Chair, BIBFRAME Interoperability Group (2025–2026)"
 start: ""
 status: "Ongoing"
 collaborators:
@@ -55,7 +55,7 @@ subgroups do most of the technical work:
 
 ## My role
 
-I serve as Chair BIG for 2025–2026 (Incoming Chair, 2024-2025; Past Chair, 2026-2027) and served as lead metadata tester for the group's validation tool.
+I serve as Chair of BIG for 2025–2026 (Incoming Chair, 2024-2025; Past Chair, 2026-2027) and served as lead metadata tester for the group's validation tool.
 As chair, I led the 2025 work plan across five areas: communications, governance, validation,
 profiles, and use cases. I also represent the group at international conferences, develop documentation, and help maintain our GitHub repository.
 
