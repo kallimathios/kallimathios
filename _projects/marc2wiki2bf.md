@@ -10,7 +10,7 @@ status: "Prototype"
 collaborators: ["Blue Core"]
 standards: [BIBFRAME, MARC 21, Wikidata, SPARQL, JSON-LD]
 tools: ["Python", "rdflib", "pymarc", "rapidfuzz", "Wikidata Query Service", "Blue Core API", "Keycloak", "Jupyter"]
-repo: ""   # add the GitHub URL
+repo: "https://github.com/kallimathios/marc2wiki2bf"   # add the GitHub URL
 talk_tag: marc2wiki2bf
 featured: true
 order: 4
