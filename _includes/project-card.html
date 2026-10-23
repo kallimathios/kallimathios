@@ -1,7 +1,0 @@
-{%- assign p = include.project -%}
-<article class="project-card">
-  <h3><a href="{{ p.url | relative_url }}">{{ p.title }}</a></h3>
-  <p class="project-card__meta">{{ p.role }}{% if p.start %} · {{ p.start }}{% if p.end %}–{{ p.end }}{% endif %}{% endif %}{% if p.status %} · {{ p.status }}{% endif %}</p>
-  <p>{{ p.summary }}</p>
-  {% include tags.html tags=p.standards %}
-</article>
