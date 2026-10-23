@@ -9,7 +9,7 @@ I am the Authorities & Entity Management Librarian at Stanford University Librar
 
 ## Statement of librarianship
 
-Placeholder, about one page. Suggested threads:
+I am committed to developing metadata, tools, and standards that enrich how patrons experience the library and help library workers build new skills and work more efficiently.
 
 - **Why linked data:** RDF brings library resource metadata into the 21st century and connects patrons with what they need anywhere on the web.
 - **How you model:** reuse of authoritative shared vocabularies and data shapes reinforces a commitment to high-quality, equitable metadata for all.
