@@ -49,10 +49,11 @@ stanford_global_footer: false
 # ------------------------------------------------------------------
 # Build settings: usually no need to change
 # ------------------------------------------------------------------
+permalink: pretty
 collections:
   projects:
     output: true
-    permalink: /projects/:name/
+    permalink: /initiatives/:name/
 
 defaults:
   - scope: { path: "" }
