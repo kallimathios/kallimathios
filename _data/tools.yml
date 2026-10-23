@@ -10,7 +10,7 @@
     Includes a Jupyter notebook walkthrough.
   language: "Python · SPARQL · rdflib · pymarc"
   role: "Creator (AI-assisted development)"
-  url: ""        # add the GitHub URL
+  url: "https://github.com/kallimathios/marc2wiki2bf"        # add the GitHub URL
   initiative: marc2wiki2bf
 
 - title: "BIBFRAME Interoperability Validation Tool"
