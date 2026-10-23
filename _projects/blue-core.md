@@ -1,12 +1,12 @@
 ---
-title: "Blue Core: A community-operated, shared BIBFRAME datastore."
+title: "Blue Core: From Prototype to MVP"
 summary: "Blue Core aims to create a community-operated BIBFRAME datastore where ownership and creation of the metadata are shared among member institutions, eliminating the need for duplicative institutional copies, and bringing library linked open data to production at scale."
 role: "Project Manager and Product Owner"
 start: "2023"
 status: "Ongoing"
 collaborators: ["SUL DLSS", "Cornell University", "University of California, Davis", "Library of Congress", "University of Pennsylvania"]
 standards: [BIBFRAME, MARC 21, SPARQL]
-tools: ["GitHub", "MARC2BIBFRAME2 XSLT", "Blue Core Postgres Datastore", "Sinopia Editor", "Marva", "FastAPI", "Keycloak", "Apache Airflow", "Milvus", "PydanticAI"]
+tools: ["GitHub", "MARC2BIBFRAME2 XSLT", "Blue Core Postgres Datastore", "Sinopia Editor", "Marva", "FastAPI", "Keycloak", "Apache Airflow"]
 repo: "https://github.com/blue-core-lod"
 data_url: ""
 links:
