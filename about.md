@@ -1,6 +1,6 @@
 ---
 title: About
-intro: "Hi, I'm Kalli."
+intro: "Hi, I'm Kalli. This portfolio was created as part of the requirements for Continuing Appointment review at Stanford University Libraries."
 ---
 
 ## Bio
@@ -9,7 +9,7 @@ I am the Authorities & Entity Management Librarian at Stanford University Librar
 
 ## Statement of librarianship
 
-I am committed to developing metadata, tools, and standards that enrich how patrons experience the library and help library workers build new skills and work more efficiently.
+I am committed to developing metadata, tools, and standards that enrich how patrons experience the library, help library workers build new skills and work more efficiently.
 
 - **Why linked data:** RDF brings library resource metadata into the 21st century and connects patrons with what they need anywhere on the web.
 - **How I model:** reuse of authoritative shared vocabularies and data shapes reinforces a commitment to high-quality, equitable metadata for all.
