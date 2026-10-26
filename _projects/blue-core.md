@@ -25,7 +25,7 @@ order: 1
 
 After successful experimentation and development during the Mellon-funded Linked Data for Production (LD4P) grants, Stanford and Blue Core partners needed to shift focus from tooling and technology strategy to implementing BIBFRAME cataloging.
 
-Most shared cataloging today depends on institutions copying and storing their own versions of bibliographic and authority data, or on third parties for access. Blue Core imagines an alternative: a library metadata environment with linked data at its core, cooperatively shaped and owned, so that each institution doesn't have to build linked data tooling locally. Shared bibliographic data (BIBFRAME Works and Instances) is kept separate from local data (holdings and administrative data in library services platforms like FOLIO and Alma). Data is copied only for downstream uses such as local search indexing.
+Most shared cataloging today depends on institutions copying and storing their own versions of bibliographic and authority data, or on third parties for access. Blue Core imagines an alternative: a library metadata environment with linked data at its core, cooperatively shaped and owned, so that each institution doesn't have to build linked data tooling locally. Shared bibliographic data (BIBFRAME Hubs, Works, and Instances) is kept separate from local data (holdings and administrative data in library services platforms like FOLIO and Alma). Data is copied only for downstream uses such as local search indexing.
 
 ## Approach
 
