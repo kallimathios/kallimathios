@@ -78,8 +78,8 @@ Usage Board discussion continues on questions that matter to anyone modeling acc
 
 - Where controlled terms *without* URIs belong, given that most accessibility vocabularies,
   including Schema.org's, use literal terms
-- Whether to express the range as `rdfs:range skos:Concept` or `dcam:rangeIncludes skos:Concept`
-- How to keep the summary a complement to structured data rather than a substitute for it
+- Where to publish the draft accessibility metadata terms with URIs as a usable vocabulary
+- How to define the relationship between the structured data and string-based summary
 
 The planned next steps are Usage Board consensus, a second 30-day public comment period, and revisions in light of that feedback.
 
