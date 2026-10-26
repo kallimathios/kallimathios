@@ -1,6 +1,6 @@
 ---
 title: About
-intro: "This portfolio was created as part of the requirements for Continuing Appointment review at Stanford University Libraries."
+intro: "This portfolio was created as part of the requirements for Continuing Appointment review."
 ---
 
 ## Bio
