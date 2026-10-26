@@ -50,12 +50,12 @@ the needs of people who rely on accessibility metadata to find resources they ca
 
 <div class="prop-grid">
   <div class="prop">
-    <p class="prop__name"><code>dcterms:accessibility</code></p>
+    <p class="prop__name"><code>dct:accessibility</code></p>
     <p><strong>Values:</strong> URIs from controlled vocabularies, preferably SKOS concepts</p>
     <p><strong>Role:</strong> precise, machine-actionable features and hazards for filtering search results and configuring interfaces</p>
   </div>
   <div class="prop">
-    <p class="prop__name"><code>dcterms:accessibilitySummary</code></p>
+    <p class="prop__name"><code>dct:accessibilitySummary</code></p>
     <p><strong>Values:</strong> free text (a subproperty of <code>dcterms:description</code>)</p>
     <p><strong>Role:</strong> a short, human-readable statement that complements rather than repeats the structured values</p>
   </div>
