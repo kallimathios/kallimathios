@@ -24,7 +24,7 @@ property and then helped the Usage Board Chairs draft its successor. The work su
 DCMI Scholarly Resources Application Profile (DC-SRAP). It sits where linked data practice meets
 the needs of people who rely on accessibility metadata to find resources they can use.
 
-### From one note to two properties
+### From strings to things: meeting a need for RDF-based controlled vocabularies for accessibility metadata
 
 1. **A single free-text property (January 2026).** The Usage Board proposed
    `dcterms:accessibilityNote`, "a statement describing features or deficiencies of a resource that
